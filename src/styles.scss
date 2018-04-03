@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "fullcalendar/dist/fullcalendar.min.css";
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .row {
+    margin-bottom: 0px !important;
+}
+
+  nav {
+    background-color: #263238  !important;
+  }
+  .nav-link.active, .nav-link:hover {
+    background-color: white;
+    color: #263238 ;
+  }
+
+  .page-footer {
+    background-color: #263238  !important;
+  }
+
+li.indicator {
+  background-color: #fff !important;
+}
+
+.fc-content, .fc-event {
+  background-color: white;
+  border-color: white;
+  color: #263238 ;
+}
+
+td.fc-day.fc-widget-content {
+  background-color: #0277bd  ;
+}
+
+td.fc-other-month{
+  background-color: #f5f5f5 !important;
+}
+
+td.fc-day-top {
+  color: white;
+}
+
+td.fc-day-top.fc-other-month {
+  color: #263238  !important;
+}
+
+th.fc-day-header.fc-widget-header, td.fc-widget-header {
+  background-color: #263238  !important;
+  color: rgba(255, 255, 255, 0.993);
+}
+
+td.fc-today {
+  background-color: #005580 !important;
+}
+
+div.fc-header.fc-widget-header {
+  background-color: #263238  !important;
+  color: white;
+}
+
+div.fc-event-container {
+  background-color: #0277bd   !important;
+}
+
+.fc-state-default {
+  background-color: #0277bd  ;
+  border-color: #fff;
+  background-image: none;
+  color: #fff;
+  text-shadow: none;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+}
+
+.indicator-item.active {
+  background-color: #0277bd !important;
+}

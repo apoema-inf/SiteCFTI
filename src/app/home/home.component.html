@@ -1,0 +1,92 @@
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="assets/slide4.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Centro de Formação Tecnológica do INF</h3>
+          <h5 class="light grey-text text-lighten-3">Conheça nossos cursos.</h5>
+          <a class="btn red" [routerLink]="['cursos']" routerLinkActive="active">Cursos</a>
+        </div>
+      </li>
+      <li>
+        <img src="assets/slide2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Não fique perdido no calendário</h3>
+          <h5>Salve a data</h5>
+          <a class="btn blue" href="#calendar">Calendário</a>          
+        </div>
+      </li>
+      <li>
+        <img src="assets/slide3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+            <h3>Fique por dentro das notícias</h3>
+            <a class="btn purple" href="#calendar">Notícias</a>  
+        </div>
+      </li>
+      <li>
+        <img style="filter: brightness(60%)" src="assets/slide1.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<div class="promos">
+    <div class="row">
+        <div class="col l4 s12" align="middle">
+            <i class="large material-icons icon">computer</i>
+            <h4 class="title">Desenvolvimento</h4>
+            <p class="conte">Conteúdo promocional aqui.</p>
+        </div>
+        <div class="col l4 s12" align="middle">
+            <i class="large material-icons icon">supervisor_account</i>
+            <h4 class="title">Profissionais da área</h4>
+            <p class="conte">Conteúdo promocional aqui.</p>
+        </div>
+        <div class="col l4 s12" align="middle">
+            <i class="large material-icons icon">work</i>
+            <h4 class="title">Business</h4>
+            <p class="conte">Conteúdo promocional aqui.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" id="calendar">
+    <div class="row">
+        <div class="col l6 s12 div-news teste">
+            <div class="news pink darken-4 z-depth-2">
+                <p>Notícias</p>
+                <div class="divider"></div>
+                <div class="section">
+                    <div class="row left-align">
+                        <a href="#" class="title-news">Title</a>
+                    </div>
+                    <p class="conte-news left-align">Content</p>
+                </div>
+                <div class="divider"></div>
+                <div class="section">
+                    <div class="row left-align">
+                        <a href="#" class="title-news">Title</a>
+                    </div>
+                    <p class="conte-news left-align">Content</p>
+                </div>
+                <div class="divider"></div>
+                <div class="section">
+                    <div class="row left-align">
+                        <a href="#" class="title-news">Title</a>
+                    </div>
+                    <p class="conte-news left-align">Content</p>
+                </div>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <div class="col l6 s12">
+            <div class="calendario">
+                <angular2-fullcalendar [options]="calendarOptions"></angular2-fullcalendar>
+            </div>
+        </div>
+    </div>
+</div>

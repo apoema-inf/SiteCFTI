@@ -1,0 +1,16 @@
+.collapsible-header {
+    background-color: #0277bd;
+    color: white;
+}
+
+.collapsible-header:hover {
+    opacity: .8 !important  ;
+}
+
+.collection-item a {
+    color: #263238;
+}
+
+.collection-item a:active, .collection-item a:hover{
+    opacity: .5 !important  ;
+}

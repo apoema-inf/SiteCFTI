@@ -1,0 +1,21 @@
+.card-img {
+    width: 250px !important;
+    height: 200px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.color {
+    background-color: #01579b  ;
+}
+
+.tabs, .tab a {
+    color: #01579b   !important;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: white !important;
+    background-color: #01579b  ;
+}
