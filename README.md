@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# CFTI
+=======
+>>>>>>> 9ad29d3... backup
 # MyFirstAngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
@@ -25,3 +31,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<<<<<<< HEAD
+=======
+>>>>>>> Second Commit
+>>>>>>> 9ad29d3... backup

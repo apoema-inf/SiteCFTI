@@ -1,269 +1,30 @@
 <div class="row">
   <div class="col s12 l4">
     <ul materialize="collapsible" class="collapsible" data-collapsible="expandable">
-      <li>
+      <li *ngFor = "let categoria of categorias">
         <div class="collapsible-header">
-          <i class="material-icons">local_library</i>Fundamentos</div>
+          <i class="material-icons">{{categoria.icon}}</i>{{categoria.nome}}</div>
         <div class="collapsible-body">
           <div class="collection">
             <ul materialize="collapsible" class="collapsible" data-collapsible="expandable">
-              <li>
+              <li *ngFor = "let subcategoria of subcategorias">
                 <div class="collapsible-header">
-                  <i class="material-icons">business_center</i>Gestão e Processos</div>
+                  <i class="material-icons">{{subcategoria.icon}}</i>{{subcategoria.nome}}</div>
                 <div class="collapsible-body">
                   <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">code</i>Desenvolvimento de sistemas e Software</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">language</i>Infraestrutura e Suporte</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">data_usage</i>Tecnologias inteligentes e Ciência de dados</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">security</i>Segurança da informação e Riscos</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">dehaze</i>Outros</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
+                    <div *ngFor="let curso of cursos">
+                      <a class="collection-item" href="#" *ngIf="curso.categoria == categoria.nome && curso.subcategoria == subcategoria.nome">{{curso.nome}}</a>
+                    </div>
                   </div>
                 </div>
               </li>
             </ul>
-            <a class="collection-item" href="#" [routerLink]="['dev']" routerLinkActive="active">Curso A</a>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header">
-          <i class="material-icons">widgets</i>Nivelamento</div>
-        <div class="collapsible-body">
-          <div class="collection">
-            <ul materialize="collapsible" class="collapsible" data-collapsible="expandable">
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">business_center</i>Gestão e Processos</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">code</i>Desenvolvimento de sistemas e Software</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">language</i>Infraestrutura e Suporte</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">data_usage</i>Tecnologias inteligentes e Ciência de dados</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">security</i>Segurança da informação e Riscos</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">dehaze</i>Outros</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <a class="collection-item" href="#" [routerLink]="['dev']" routerLinkActive="active">Curso A</a>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header">
-          <i class="material-icons">work</i>Formação</div>
-        <div class="collapsible-body">
-          <div class="collection">
-            <ul materialize="collapsible" class="collapsible" data-collapsible="expandable">
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">business_center</i>Gestão e Processos</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">code</i>Desenvolvimento de sistemas e Software</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">language</i>Infraestrutura e Suporte</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">data_usage</i>Tecnologias inteligentes e Ciência de dados</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">security</i>Segurança da informação e Riscos</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">dehaze</i>Outros</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <a class="collection-item" href="#" [routerLink]="['dev']" routerLinkActive="active">Curso A</a>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header">
-          <i class="material-icons">group</i>Instrutoria</div>
-        <div class="collapsible-body">
-          <div class="collection">
-            <ul materialize="collapsible" class="collapsible" data-collapsible="expandable">
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">business_center</i>Gestão e Processos</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">code</i>Desenvolvimento de sistemas e Software</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">language</i>Infraestrutura e Suporte</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">data_usage</i>Tecnologias inteligentes e Ciência de dados</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">security</i>Segurança da informação e Riscos</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header">
-                  <i class="material-icons">dehaze</i>Outros</div>
-                <div class="collapsible-body">
-                  <div class="collection">
-                    <a class="collection-item" href="#">Curso</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <a class="collection-item" href="#" [routerLink]="['dev']" routerLinkActive="active">Curso A</a>
           </div>
         </div>
       </li>
     </ul>
   </div>
   <div class="col s12 l8">
-    <router-outlet></router-outlet>
+    <app-desenvolvimento [curso]="curso"></app-desenvolvimento>
   </div>
 </div>
