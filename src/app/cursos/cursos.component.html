@@ -12,8 +12,8 @@
                   <i class="material-icons">{{subcategoria.icon}}</i>{{subcategoria.nome}}</div>
                 <div class="collapsible-body">
                   <div class="collection">
-                    <div *ngFor="let curso of cursos">
-                      <a class="collection-item" href="#" *ngIf="curso.categoria == categoria.nome && curso.subcategoria == subcategoria.nome">{{curso.nome}}</a>
+                    <div *ngFor="let curso of cursos" style="cursor: pointer">
+                      <a class="collection-item" *ngIf="curso.categoria == categoria.nome && curso.subcategoria == subcategoria.nome" (click)="findCurso(curso)">{{curso.nome}}</a>
                     </div>
                   </div>
                 </div>
@@ -25,6 +25,6 @@
     </ul>
   </div>
   <div class="col s12 l8">
-    <app-desenvolvimento [curso]="curso"></app-desenvolvimento>
+    <app-desenvolvimento [curso]=curso></app-desenvolvimento>
   </div>
 </div>

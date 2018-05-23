@@ -12,7 +12,14 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     (<any>$('.slider')).slider();
+    (<any>$('.button')).click(function () {
+      $('html,body').animate({
+        scrollTop: $(".goto").offset().top
+      },
+        'slow');
+    });
   }
+  
 
   today = Date.now();
 

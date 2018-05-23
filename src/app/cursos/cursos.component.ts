@@ -14,15 +14,21 @@ import { Subcategoria } from './subcategoria.model';
 export class CursosComponent implements OnInit{
 
   cursos : Curso[];
+  curso;
   categorias : Categoria[];
   subcategorias : Subcategoria[];
 
   constructor(private cursoservice:CursosService, private categoriasservice:CategoriasService, private subcategoriasservice:SubcategoriasService) {}
 
   ngOnInit() {
+    (<any>$('.collapsible')).collapsible();
     this.cursos = this.cursoservice.getCursos();
     this.categorias = this.categoriasservice.getCategorias();
     this.subcategorias = this.subcategoriasservice.getSubcategorias();
+  }
+
+  findCurso(curso) {
+    this.curso = curso;
   }
 
 }
