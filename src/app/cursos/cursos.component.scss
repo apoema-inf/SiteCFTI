@@ -7,10 +7,12 @@
     opacity: .8 !important  ;
 }
 
-.collection-item a {
-    color: #263238;
+#curso-nome {
+    text-align: center;
 }
 
-.collection-item a:active, .collection-item a:hover{
-    opacity: .5 !important  ;
+#curso-nome:hover {
+    font-size: .9em;
+    background-color: #26a69a;
+    color: white;
 }

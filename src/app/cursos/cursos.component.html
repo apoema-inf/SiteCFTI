@@ -13,7 +13,7 @@
                 <div class="collapsible-body">
                   <div class="collection">
                     <div *ngFor="let curso of cursos" style="cursor: pointer">
-                      <a class="collection-item" *ngIf="curso.categoria == categoria.nome && curso.subcategoria == subcategoria.nome" (click)="findCurso(curso)">{{curso.nome}}</a>
+                      <a id="curso-nome" class="collection-item" *ngIf="curso.categoria == categoria.nome && curso.subcategoria == subcategoria.nome" (click)="findCurso(curso)">{{curso.nome}}</a>
                     </div>
                   </div>
                 </div>
