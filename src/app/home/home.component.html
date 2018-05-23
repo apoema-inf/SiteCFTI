@@ -13,14 +13,14 @@
         <div class="caption left-align">
           <h3>Não fique perdido no calendário</h3>
           <h5>Salve a data</h5>
-          <button class="btn blue goto" type="button">Calendário</button>          
+          <button class="btn blue" type="button" (click)="goto()">Calendário</button>          
         </div>
       </li>
       <li>
         <img src="assets/slide3.jpg"> <!-- random image -->
         <div class="caption right-align">
             <h3>Fique por dentro das notícias</h3>
-            <button class="btn purple goto" type="button">Notícias</button>   
+            <button class="btn purple" type="button" (click)="goto()">Notícias</button>   
         </div>
       </li>
       <li>
@@ -54,7 +54,7 @@
 </div>
 
 
-<div class="container" id="calendar">
+<div class="container" id="goto">
     <div class="row">
         <div class="col l6 s12 div-news teste">
             <div class="news light-blue darken-3 z-depth-2">

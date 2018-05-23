@@ -28,6 +28,7 @@ export class CursosComponent implements OnInit{
   }
 
   findCurso(curso) {
+    document.getElementById("parte-curso").style.display = 'block';
     this.curso = curso;
   }
 
