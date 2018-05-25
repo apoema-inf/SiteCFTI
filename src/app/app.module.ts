@@ -15,16 +15,16 @@ import { CursosComponent } from './cursos/cursos.component';
 import { Http } from '@angular/http/src/http';
 import { HomeComponent } from './home/home.component';
 
-import {CalendarModule} from "ap-angular2-fullcalendar";
-import {CalendarComponent} from "ap-angular2-fullcalendar";
+import { CalendarModule } from "ap-angular2-fullcalendar";
+import { CalendarComponent } from "ap-angular2-fullcalendar";
 
 import { MomentModule } from 'angular2-moment';
 import { SobreComponent } from './sobre/sobre.component';
 
 @NgModule({
-  bootstrap:    [ AppComponent ],
-  declarations: [ AppComponent, EventLogComponent, HomeComponent, SobreComponent],
-  imports:      [ MomentModule, MaterializeModule, BrowserModule, BrowserAnimationsModule, CalendarModule, CursosModule, ROUTING, HttpModule, FormsModule]
+  bootstrap: [AppComponent],
+  declarations: [AppComponent, EventLogComponent, HomeComponent, SobreComponent],
+  imports: [MomentModule, MaterializeModule, BrowserModule, BrowserAnimationsModule, CalendarModule, CursosModule, ROUTING, HttpModule, FormsModule]
 })
 
 export class AppModule { }
