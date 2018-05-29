@@ -10,6 +10,7 @@ export class DesenvolvimentoComponent implements OnInit {
 
   @Input() curso: Curso;
 
+
   constructor() { }
 
   ngOnInit() {

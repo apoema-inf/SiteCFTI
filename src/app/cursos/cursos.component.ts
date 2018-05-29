@@ -30,6 +30,9 @@ export class CursosComponent implements OnInit{
   findCurso(curso) {
     document.getElementById("parte-curso").style.display = 'block';
     this.curso = curso;
+    document.getElementById("conteudo").innerHTML = this.curso.conteudoProgramatico;
+    document.getElementById("publico").innerHTML = this.curso.publicoAlvo;
+    document.getElementById("competencias").innerHTML = this.curso.competenciasDesenvolver;
   }
 
 }
