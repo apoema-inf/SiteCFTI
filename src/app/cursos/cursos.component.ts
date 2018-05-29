@@ -17,6 +17,8 @@ export class CursosComponent implements OnInit{
   curso;
   categorias : Categoria[];
   subcategorias : Subcategoria[];
+  display: boolean = false;
+  pesquisa: string;
 
   constructor(private cursoservice:CursosService, private categoriasservice:CategoriasService, private subcategoriasservice:SubcategoriasService) {}
 

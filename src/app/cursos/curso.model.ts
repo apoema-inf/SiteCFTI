@@ -56,6 +56,5 @@ export const CURSOS: Curso[] = [
         '<b>Módulo 5 – Apresentação e defesa do trabalho de pesquisa</b><br>' +
         '&emsp;Organização da apresentação<br>' +
         '&emsp;Preparação para defesa<br>'
-        
     },
 ]

@@ -6,9 +6,10 @@ import { DesenvolvimentoComponent } from './desenvolvimento/desenvolvimento.comp
 import { MaterializeModule } from 'angular2-materialize';
 import { CursosService } from "./cursos.service";
 import { CategoriasService } from "./categorias.service";
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-    imports: [CommonModule, MaterializeModule],
+    imports: [CommonModule, MaterializeModule, FormsModule],
     exports: [],
     declarations: [CursosComponent, DesenvolvimentoComponent],
     providers: [CursosService, CategoriasService, SubcategoriasService]
