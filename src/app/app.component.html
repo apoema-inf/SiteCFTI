@@ -1,9 +1,11 @@
 <nav>
   <div class="container nav-wrapper">
+
     <a href="#" class="brand-logo">CFTI</a>
     <a href="#" data-activates="mobile-demo" class="button-collapse">
       <i class="material-icons">dehaze</i>
     </a>
+
     <ul class="right hide-on-med-and-down">
       <li>
         <a class="nav-link " href="#" [routerLink]="['home']" routerLinkActive="active">Home</a>
@@ -14,6 +16,12 @@
       <li>
         <a class="nav-link " href="#" [routerLink]="['cursos']" routerLinkActive="active">Cursos</a>
       </li>
+      <li>
+        <input placeholder="Pesquisar" type="text" ([ngModel])="term">
+        <p>oi</p>
+        <p>oi2</p>
+      </li>
+
     </ul>
     <ul id="mobile-demo" class="side-nav">
       <li>
