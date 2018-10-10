@@ -1,0 +1,41 @@
+[debug] [2018-10-10T16:55:59.602Z] ----------------------------------------------------------------------
+[debug] [2018-10-10T16:55:59.604Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hyago\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-10T16:55:59.604Z] CLI Version:   4.0.3
+[debug] [2018-10-10T16:55:59.604Z] Platform:      win32
+[debug] [2018-10-10T16:55:59.604Z] Node Version:  v8.11.3
+[debug] [2018-10-10T16:55:59.605Z] Time:          Wed Oct 10 2018 13:55:59 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-10-10T16:55:59.605Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-10T16:55:59.615Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-10T16:55:59.615Z] > authorizing via signed-in user
+[debug] [2018-10-10T16:55:59.615Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-10T16:55:59.615Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/-aeddupUtvkFVEca2J0wTi0VfB56WYb-iMtvgP3SSXM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Oct 10 2018 13:55:59 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-10-10T16:56:00.071Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-10T16:56:00.126Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/infcfti  
+  
+ Wed Oct 10 2018 13:56:00 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-10-10T16:56:01.135Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-10T16:56:01.136Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/infcfti/tokens  
+  
+ Wed Oct 10 2018 13:56:01 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-10-10T16:56:02.098Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-10T16:56:02.098Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/infcfti  
+  
+ Wed Oct 10 2018 13:56:02 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-10-10T16:56:03.318Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\hyago\Desktop\SiteCFTI'...
+[info] 
+[debug] [2018-10-10T16:56:03.320Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/843693981529/clients/_:getWebAppConfig  
+  
+ Wed Oct 10 2018 13:56:03 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-10-10T16:56:03.907Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000
+

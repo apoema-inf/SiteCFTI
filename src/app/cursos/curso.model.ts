@@ -31,30 +31,30 @@ export const CURSOS: Curso[] = [
         periodoInscricao: 'Período de inscrição: 28/04 a 04/05/2017',
         modalidade: 'EaD',
         conteudoProgramatico: '<b>Módulo 1 – Preparação de um trabalho de pesquisa</b>' +
-        '<br>&emsp;Estilo e postura do pesquisador<br>' +
-        '&emsp;Análise crítica estrutural e conjuntural<br>' +
-        '&emsp;Problematização e estruturação de problemas<br>' +
-        '&emsp;Armadilhas e precauções para o desenvolvimento da pesquisa<br><hr>' +
-        '<b>Módulo 2 – Métodos de pesquisa</b><br>' +
-        '&emsp;Quanto à natureza<br>' +
-        '&emsp;Quanto aos objetivos<br>' +
-        '&emsp;Quanto aos procedimentos técnicos<br>' +
-        '&emsp;Ciência e tecnologia<br>' +
-        '&emsp;Abordagens observacionais e intervencionistas<br><hr>' +
-        '<b>Módulo 3 – Metodologia de Pesquisa para Ciência da Computação</b><br>' +
-        '&emsp;Estilos de pesquisa em computação<br>' +
-        '&emsp;Métodos específicos para pesquisas nas áreas da computação<br>' +
-        '&emsp;Uso de probabilidade e estatísticas em pesquisa<br>' +
-        '&emsp;Abordagens de pesquisa de campo e pesquisa-ação<br><hr>' +
-        '<b>Módulo 4 – Execução do projeto de pesquisa</b><br>' +
-        '&emsp;Plano de pesquisa<br>' +
-        '&emsp;Gerenciamento do projeto de pesquisa<br>' +
-        '&emsp;Especificação e aplicação dos instrumentos de pesquisa<br>' +
-        '&emsp;Redação científica<br>' +
-        '&emsp;Padrões de redação científica<br>' +
-        '&emsp;Do projeto à redação final<br><hr>' +
-        '<b>Módulo 5 – Apresentação e defesa do trabalho de pesquisa</b><br>' +
-        '&emsp;Organização da apresentação<br>' +
-        '&emsp;Preparação para defesa<br>'
+            '<br>&emsp;Estilo e postura do pesquisador<br>' +
+            '&emsp;Análise crítica estrutural e conjuntural<br>' +
+            '&emsp;Problematização e estruturação de problemas<br>' +
+            '&emsp;Armadilhas e precauções para o desenvolvimento da pesquisa<br><hr>' +
+            '<b>Módulo 2 – Métodos de pesquisa</b><br>' +
+            '&emsp;Quanto à natureza<br>' +
+            '&emsp;Quanto aos objetivos<br>' +
+            '&emsp;Quanto aos procedimentos técnicos<br>' +
+            '&emsp;Ciência e tecnologia<br>' +
+            '&emsp;Abordagens observacionais e intervencionistas<br><hr>' +
+            '<b>Módulo 3 – Metodologia de Pesquisa para Ciência da Computação</b><br>' +
+            '&emsp;Estilos de pesquisa em computação<br>' +
+            '&emsp;Métodos específicos para pesquisas nas áreas da computação<br>' +
+            '&emsp;Uso de probabilidade e estatísticas em pesquisa<br>' +
+            '&emsp;Abordagens de pesquisa de campo e pesquisa-ação<br><hr>' +
+            '<b>Módulo 4 – Execução do projeto de pesquisa</b><br>' +
+            '&emsp;Plano de pesquisa<br>' +
+            '&emsp;Gerenciamento do projeto de pesquisa<br>' +
+            '&emsp;Especificação e aplicação dos instrumentos de pesquisa<br>' +
+            '&emsp;Redação científica<br>' +
+            '&emsp;Padrões de redação científica<br>' +
+            '&emsp;Do projeto à redação final<br><hr>' +
+            '<b>Módulo 5 – Apresentação e defesa do trabalho de pesquisa</b><br>' +
+            '&emsp;Organização da apresentação<br>' +
+            '&emsp;Preparação para defesa<br>'
     },
 ]
