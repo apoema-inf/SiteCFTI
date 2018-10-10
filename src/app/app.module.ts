@@ -20,10 +20,11 @@ import { CalendarComponent } from "ap-angular2-fullcalendar";
 
 import { MomentModule } from 'angular2-moment';
 import { SobreComponent } from './sobre/sobre.component';
+import { TemplatesComponent } from './templates/templates.component';
 
 @NgModule({
   bootstrap: [AppComponent],
-  declarations: [AppComponent, EventLogComponent, HomeComponent, SobreComponent],
+  declarations: [AppComponent, EventLogComponent, HomeComponent, SobreComponent, TemplatesComponent],
   imports: [MomentModule, MaterializeModule, BrowserModule, BrowserAnimationsModule, CalendarModule, CursosModule, ROUTING, HttpModule, FormsModule]
 })
 
