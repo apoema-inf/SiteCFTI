@@ -25,6 +25,10 @@ export const SUBCATEGORIAS: Subcategoria[] = [
         icon : 'security'
     },
     {
+        nome: 'Empreendedorismo e Inovação',
+        icon : 'lightbulb_outline'
+    },
+    {
         nome: 'Outros',
         icon : 'dehaze'
     },
