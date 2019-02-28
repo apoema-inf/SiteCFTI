@@ -1,4 +1,4 @@
-import { Curso } from './../curso.model';
+import { Curso } from '../../models/curso.model';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({

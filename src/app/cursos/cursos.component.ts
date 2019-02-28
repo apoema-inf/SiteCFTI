@@ -1,10 +1,10 @@
-import { SubcategoriasService } from './subcategorias.service';
-import { CategoriasService } from './categorias.service';
-import { Categoria } from './categoria.model';
+import { SubcategoriasService } from '../service/subcategorias.service';
+import { CategoriasService } from '../service/categorias.service';
+import { Categoria } from '../models/categoria.model';
 import { Component, OnInit } from '@angular/core';
-import { CursosService } from './cursos.service';
-import { Curso } from './curso.model';
-import { Subcategoria } from './subcategoria.model';
+import { CursosService } from '../service/cursos.service';
+import { Curso } from '../models/curso.model';
+import { Subcategoria } from '../models/subcategoria.model';
 
 @Component({
   selector: 'app-cursos',

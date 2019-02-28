@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {  Categoria, CATEGORIAS } from './categoria.model'
+import {  Categoria, CATEGORIAS } from '../models/categoria.model'
 
 @Injectable()
 export class CategoriasService {

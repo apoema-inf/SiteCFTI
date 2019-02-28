@@ -18,7 +18,7 @@
         <a href="#test8">Conteúdo</a>
       </li>
       <li class="tab">
-        <a href="#test7">Períodos</a>
+        <a href="#test7">Save the Dates</a>
       </li>
     </ul>
   </div>
@@ -41,13 +41,28 @@
     </div>
     <div id="test7">
       <ul class="collection">
-        <li class="collection-item">Período de inscrição: {{curso.periodoInscricao}}</li>
-        <li class="collection-item">Período de realização: {{curso.periodoRealizacao}}</li>
+        <li class="collection-item">
+          <div class="row" style="display: flex; align-items: center">
+            <div class="col s6">
+              {{curso.periodoInscricao}}
+            </div>
+            <div class="col s6" align="right">
+              <a class="waves-effect waves-light btn" href="https://goo.gl/forms/zYe3k6jR7uiHMJsE2" target="_blank">Inscreva-se</a>
+            </div>
+          </div>
+        </li>
+        <li class="collection-item">
+          <div class="row" style="display: flex; align-items: center">
+            <div class="col s12">
+              {{curso.periodoRealizacao}}
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
     <div id="test8">
       <ul class="collection">
-          <p id="conteudo" class="collection-item"></p>
+        <p id="conteudo" class="collection-item"></p>
       </ul>
     </div>
   </div>

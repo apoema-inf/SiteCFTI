@@ -27,8 +27,8 @@ export const CURSOS: Curso[] = [
             + ' Habilitar-se para apresentar e defender um trabalho final de pesquisa.',
         duracao: '30 horas',
         local: 'Moodle IPê da UFG.',
-        periodoRealizacao: 'Período de realização: 06/05 a 02/06/2018',
-        periodoInscricao: 'Período de inscrição: 28/04 a 04/05/2017',
+        periodoRealizacao: 'Período de realização: 07/03 a 05/04/2019',
+        periodoInscricao: 'Período de inscrição: 27/02 a 06/03/2019',
         modalidade: 'EaD',
         conteudoProgramatico: '<b>Módulo 1 – Preparação de um trabalho de pesquisa</b>' +
             '<br>&emsp;Estilo e postura do pesquisador<br>' +
