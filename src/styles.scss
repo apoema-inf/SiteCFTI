@@ -1,32 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
-
 @import "fullcalendar/dist/fullcalendar.min.css";
 
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
-
-  .row {
-    margin-bottom: 0px !important;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-  nav {
-    background-color: #263238  !important;
-  }
-  .nav-link.active, .nav-link:hover {
-    background-color: white;
-    color: #263238 ;
-  }
+main {
+  flex: 1 0 auto;
+}
 
-  .page-footer {
-    background-color: #314047 !important;
-  }
+.row {
+  margin-bottom: 0px !important;
+}
+
+nav {
+  background-color: whitesmoke !important;
+}
+
+.nav-link {
+  color: gray;
+}
+
+.nav-link.active, .nav-link:hover {
+  background-color: #DFDFDF;
+  color: white;
+}
+
+.page-footer {
+  background-color: whitesmoke !important;
+}
+
+.footer-text {
+  color: #263238;
+}
+
+.footer-title-text {
+  color: #263238;
+}
 
 li.indicator {
   background-color: #fff !important;
@@ -35,14 +47,14 @@ li.indicator {
 .fc-content, .fc-event {
   background-color: white;
   border-color: white;
-  color: #263238 ;
+  color: #263238;
 }
 
 td.fc-day.fc-widget-content {
-  background-color: #0277bd  ;
+  background-color: #0277bd;
 }
 
-td.fc-other-month{
+td.fc-other-month {
   background-color: #f5f5f5 !important;
 }
 
@@ -51,11 +63,11 @@ td.fc-day-top {
 }
 
 td.fc-day-top.fc-other-month {
-  color: #263238  !important;
+  color: #263238 !important;
 }
 
 th.fc-day-header.fc-widget-header, td.fc-widget-header {
-  background-color: #263238  !important;
+  background-color: #263238 !important;
   color: rgba(255, 255, 255, 0.993);
 }
 
@@ -64,16 +76,16 @@ td.fc-today {
 }
 
 div.fc-header.fc-widget-header {
-  background-color: #263238  !important;
+  background-color: #263238 !important;
   color: white;
 }
 
 div.fc-event-container {
-  background-color: #0277bd   !important;
+  background-color: #0277bd !important;
 }
 
 .fc-state-default {
-  background-color: #0277bd  ;
+  background-color: #0277bd;
   border-color: #fff;
   background-image: none;
   color: #fff;
@@ -89,7 +101,7 @@ h2 {
 }
 
 .color-footer {
-  background-color: #263238 !important;
+  background-color: #314047 !important;
 }
 
 .sobre-titulo {
