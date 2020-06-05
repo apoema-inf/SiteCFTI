@@ -57,4 +57,45 @@ export const CURSOS: Curso[] = [
             '&emsp;Organização da apresentação<br>' +
             '&emsp;Preparação para defesa<br>'
     },
+    {
+        nome: 'Matrizes, Algoritmos e Otimização Linear: Uma Abordagem Remota e Interativa',
+        categoria: 'Fundamentos',
+        subcategoria: 'Tecnologias inteligentes e Ciência de dados',
+        resumo: 'Contribuir	para a capacitação dos estudantes frente à disciplina como Fundamentos Matemáticos	para Computação, Álgebra Linear, Algoritmos	e Programação, Pesquisa	Operacional',
+        publicoAlvo: 'Estudantes de exatas, especialmente os de baixo rendimento.',
+        competenciasDesenvolver: 'Realizar operações	com	matrizes;<br><br>'
+            + ' Resolver	sistemas	de	equações	lineares;<br><br>'
+            + ' Desenvolver	algoritmos	para	operações	básicas	com	matrizes;<br><br>'
+            + ' Formular	modelos	matemáticos	para	problemas	de	otimização;<br><br>'
+            + ' Aplicar	técnicas	básicas	na	resolução	de	problemas	de	Otimização.',
+        duracao: '60 horas',
+        local: 'A+ Platform',
+        periodoRealizacao: 'Período de realização: 29/06 a 04/09/2020',
+        periodoInscricao: 'Período de inscrição: dd/mm a dd/mm/aaaa',
+        modalidade: 'EaD',
+        conteudoProgramatico: '<b>Módulo 1 – Matrizes</b>' +
+            '<br>&emsp;Introdução	e	conceitos	básicos.<br>' +
+            '&emsp;Operações	básicas	com	matrizes.<br>' +
+            '&emsp;Multiplicação	de	matrizes.<br>' +
+            '&emsp;Resolução	de	sistemas	lineares	por	Gauss-Jordan.<br>' +
+            '&emsp;Determinante	por	triangularização.<br>' +
+            '&emsp;Matriz	inversa	por	Gauss-Jordan.<br><hr>' +
+            '<b>Módulo 2 – Algoritmos</b><br>' +
+            '&emsp;Variáveis simples e compostas<br>' +
+            '&emsp;Atribuição e Manipulação de valores<br>' +
+            '&emsp;Expressões:	aritméticas,	lógicas	e	relacionais.<br>' +
+            '&emsp;Comandos	Condicionais.<br>' +
+            '&emsp;Estruturas	de	repetição.<br>' +
+            '&emsp;Vetores	e	matrizes.<br><hr>' +
+            '<b>Módulo 3 – Otimização	Linear</b><br>' +
+            '&emsp;Formulação	de	modelos	matemáticos	para	problemas	de	Otimização.<br>' +
+            '&emsp;Resolução	gráfica	de	problemas	de	PL.<br>' +
+            '&emsp;Forma	padrão.<br>' +
+            '&emsp;Fundamentos	da	PL	e	um	algoritmo	do	tipo	força	bruta.<br>' +
+            '&emsp;Custos	reduzidos	e	condições	de	otimalidade.<br>' +
+            '&emsp;Conjuntos	convexos,	pontos	extremos	e	alguns	resultados.<br>' +
+            '&emsp;Algoritmo	Simplex	primal	fase	2.<br>' +
+            '&emsp;Método	das	duas	fases	do	Simplex.<br>' 
+            
+    },
 ]

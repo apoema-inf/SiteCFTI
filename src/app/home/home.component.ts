@@ -60,6 +60,12 @@ export class HomeComponent implements OnInit {
         title: 'Gestão da Continuidade de Negócios – Brasília (DF) – Integral',
         start: '2018-03-05T00:30:00',
         end: '2018-03-10T12:30:00'
+      },
+      {
+        title: 'Matrizes,	Algoritmos	e	Otimização	Linear:	Uma	abordagem	remota	e	interativa',
+        start: '2020-06-29T12:00:00',
+        end:  '2020-09-04T12:00:00'
+
       }
     ]
   };
