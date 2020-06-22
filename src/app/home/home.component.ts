@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit {
     defaultDate: this.today,
     selectable: true,
     weekNumbersWithinDays: true,
-    eventLimit: true, // allow "more" link when too many events
+    eventLimit: false, // allow "more" link when too many events
     events: [
       {
         title: 'All Day Event',
@@ -63,8 +63,15 @@ export class HomeComponent implements OnInit {
       },
       {
         title: 'Matrizes,	Algoritmos	e	Otimização	Linear:	Uma	abordagem	remota	e	interativa',
-        start: '2020-06-29T12:00:00',
-        end:  '2020-09-04T12:00:00'
+        start: '2020-06-29',
+        end:  '2020-09-04'
+
+      },
+      {
+        title: 'Introdução à Inteligência Artificial!',
+        url: 'http://brasilmaisia.com.br/',
+        start: '2020-07-14',
+        end:  '2020-09-15'
 
       }
     ]
