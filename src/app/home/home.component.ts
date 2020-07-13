@@ -70,7 +70,7 @@ export class HomeComponent implements OnInit {
       {
         title: 'Introdução à Inteligência Artificial!',
         url: 'http://brasilmaisia.com.br/',
-        start: '2020-07-14',
+        start: '2020-07-21',
         end:  '2020-09-15'
 
       }

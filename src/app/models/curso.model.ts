@@ -114,7 +114,7 @@ export const CURSOS: Curso[] = [
         + 'RN’s Convolucionais; e RN’s Recorrentes.',
         duracao: '120 horas',
         local: 'Plataforma Turing',
-        periodoRealizacao: 'Período de realização: 14/07 a 15/09/2020',
+        periodoRealizacao: 'Período de realização: 21/07 a 15/09/2020',
         periodoInscricao: 'Período de inscrição: 22/06 a 28/06/2020',
         modalidade: 'EaD',
         conteudoProgramatico: '- Inicialização e utilização de ferramentas úteis (Anaconda, Jupyter Notebook, Python, PyTorch, Colab, Kaggle, Pandas, NumPy e Matplotlib);<br>' 
