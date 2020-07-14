@@ -13,4 +13,4 @@ export const ROUTES: Routes = [
     {path: 'templates', component: TemplatesComponent}
 ];
 
-export const ROUTING: ModuleWithProviders = RouterModule.forRoot(ROUTES);
+export const ROUTING: ModuleWithProviders = RouterModule.forRoot(ROUTES, { useHash: true});
